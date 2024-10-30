@@ -1,0 +1,60 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family;  Arial, sans-serif;
+    color:rgb(12, 12, 76);
+    line-height: 1.6;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 155, 207);
+    padding:  20px;
+    text-align: center;
+}
+header h1{
+    margin-bottom:10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #004466;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#contact p {
+    line-height: 1.8;
+}
+
+#contact a {
+    color: #004466;
+    text-decoration: underline;
+}
+
+}
