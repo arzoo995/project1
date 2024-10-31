@@ -1,11 +1,7 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-}
+
 
 body{
-    font-family;  Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color:rgb(12, 12, 76);
     line-height: 1.6;
 }
@@ -57,4 +53,3 @@ ul {
     text-decoration: underline;
 }
 
-}
