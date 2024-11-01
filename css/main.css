@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(90, 130, 190);
     color: rgb(132, 155, 207);
     padding:  20px;
     text-align: center;
@@ -24,7 +24,7 @@ nav ul{
 }
 
 nav a {
-    color: #fff;
+    color: #a3a6d7;
     text-decoration: none;
     font-weight: bold;
 }
@@ -53,3 +53,6 @@ ul {
     text-decoration: underline;
 }
 
+html {
+    scroll-behavior: smooth;
+}
