@@ -7,8 +7,8 @@ body{
 }
 
 header{
-    background-color: rgb(90, 130, 190);
-    color: rgb(132, 155, 207);
+    background-color: rgb(117, 74, 52);
+    color: rgb(232, 184, 60);
     padding:  20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav ul{
 }
 
 nav a {
-    color: #a3a6d7;
+    color: #f6d35f;
     text-decoration: none;
     font-weight: bold;
 }
@@ -35,7 +35,7 @@ section {
 }
 
 h2 {
-    color: #004466;
+    color: #755219;
     margin-bottom: 10px;
 }
 
@@ -61,16 +61,9 @@ html {
     height: 400px;
     object-fit: cover;
 
-.cantoroutside.jpeg {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    
-} 
 
-.logo.png {
-   width: 100px;
-   height: 100px;
-   margin: auto;
 
+img.logo {
+    width: 50px; /* Adjust the width */
+    height: auto; /* Maintain aspect ratio */
 }
