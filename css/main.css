@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    color:rgb(224, 166, 29);
+    color:rgb(17, 17, 16);
     line-height: 1.6;
 }
 
@@ -49,7 +49,7 @@ ul {
 }
 
 #contact a {
-    color: #004466;
+    color: #131312;
     text-decoration: underline;
 }
 
@@ -60,7 +60,7 @@ html {
     width: 100%;
     height: 400px;
     object-fit: cover;
-
+}
 
 
 img.logo {
