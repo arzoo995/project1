@@ -107,36 +107,14 @@ nav ul li:active {
   transform: translateY(4px);
 }
 
-.slidehsow-container{
-  position: relative;
+.image-container {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+img {
   width: 100%;
-  max-width: 600px;
-  margin: auto;
-  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: #ef816c;
 }
-.slideshow{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.slideshow li{
-  display: none;
-}
-.slideshow li.active{
-  display: block;
-}
-.nav-button{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #ef816c;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-#prev{
-  left: 10px;
-}
-#next{
-  right: 10px;
-  }
+

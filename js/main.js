@@ -53,35 +53,15 @@ function setModal(mythis) {
     }
 }
 
+const images = ['Cantor atrium 3.jpg', 'cantor-gallery.jpg','cantoroutside.jpg','playstation.png'];
 
-let currentSlideIndex = 0;
-const slides = document.querySelectorAll('.slideshow li');
-const totalSlides = slides.length;
+const mainImage = document.getElementById('Cantor atrium 3.jpg');
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        slide.classList.remove('active'); 
-        if (i === index) {
-            slide.classList.add('active'); 
-        }
-    });
+
+
+function changeImage() {
+    currentIndex =  (currentIndex + 1) % images.length;
+    mainImage.src = images[currentIndex];
 }
 
-document.getElementById('next').onclick = function() {
-    currentSlideIndex = (currentSlideIndex + 1) % totalSlides; 
-    showSlide(currentSlideIndex);
-};
-
-document.getElementById('prev').onclick = function() {
-    currentSlideIndex = (currentSlideIndex - 1 + totalSlides) % totalSlides; 
-    showSlide(currentSlideIndex);
-};
-
-
-showSlide(currentSlideIndex);
-
-
-setInterval(() => {
-    currentSlideIndex = (currentSlideIndex + 1) % totalSlides; 
-    showSlide(currentSlideIndex);
-}, 5000); 
+setInterval(changeImage, 3000);
