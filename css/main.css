@@ -110,7 +110,7 @@ nav ul li:active {
 .slider {
   position: relative;
   max-width: 100%;
-  min-width: 300px;
+  min-width: 150px;
   margin: auto;
   overflow: hidden;
 }

@@ -26,6 +26,6 @@ function setModal(mythis) {
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
         const slides = document.querySelector('.slides');
-      }();
+      }()
 
       let currentIndex = 0;
