@@ -21,47 +21,12 @@ function setModal(mythis) {
         modal.style.display = "none";
     }
 
-    
-    document.getElementById("next").onclick = function() {
-        currentIndex = (currentIndex + 1) % [
-            'path/to/cantor_atrium_1.jpg',
-            'path/to/cantor_atrium_2.jpg',
-            'path/to/cantor_atrium_3.jpg'
-        ].length;
-        modalImg.src = [
-            'path/to/cantor_atrium_1.jpg',
-            'path/to/cantor_atrium_2.jpg',
-            'path/to/cantor_atrium_3.jpg'
-        ][currentIndex];
-    }
-
-    document.getElementById("prev").onclick = function() {
-        currentIndex = (currentIndex - 1 + [
-            'path/to/cantor_atrium_1.jpg',
-            'path/to/cantor_atrium_2.jpg',
-            'path/to/cantor_atrium_3.jpg'
-        ].length) % [
-            'path/to/cantor_atrium_1.jpg',
-            'path/to/cantor_atrium_2.jpg',
-            'path/to/cantor_atrium_3.jpg'
-        ].length;
-        modalImg.src = [
-            'path/to/cantor_atrium_1.jpg',
-            'path/to/cantor_atrium_2.jpg',
-            'path/to/cantor_atrium_3.jpg'
-        ][currentIndex];
     }
 }
+(function() {
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const slides = document.querySelector('.slides');
+  }();
 
-const images = ['Cantor atrium 3.jpg', 'cantor-gallery.jpg','cantoroutside.jpg','playstation.png'];
-
-const mainImage = document.getElementById('Cantor atrium 3.jpg');
-
-
-
-function changeImage() {
-    currentIndex =  (currentIndex + 1) % images.length;
-    mainImage.src = images[currentIndex];
-}
-
-setInterval(changeImage, 3000);
+  let currentIndex = 0; 

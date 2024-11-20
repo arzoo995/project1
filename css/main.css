@@ -107,14 +107,21 @@ nav ul li:active {
   transform: translateY(4px);
 }
 
-.image-container {
-  margin: 20px auto;
-  max-width: 500px;
+.slider {
+  position: relative;
+  max-width: 100%;
+  min-width: 300px;
+  margin: auto;
+  overflow: hidden;
 }
 
-img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: #ef816c;
+.slides {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.slides img {
+  max-width: 100%;
+  height: auto;
 }
 
