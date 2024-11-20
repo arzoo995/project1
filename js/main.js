@@ -22,11 +22,10 @@ function setModal(mythis) {
     }
 
     }
-}
-(function() {
-    const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const slides = document.querySelector('.slides');
-  }();
+    (function() {
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const slides = document.querySelector('.slides');
+      }();
 
-  let currentIndex = 0; 
+      let currentIndex = 0;
