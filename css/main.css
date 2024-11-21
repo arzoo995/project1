@@ -50,4 +50,11 @@ nav img {
   font-size: 13px;
   font-family:  'Poppins', sans-serif;
 }
+.nav-links ul li::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
 
