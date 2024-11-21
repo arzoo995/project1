@@ -1,8 +1,11 @@
-*{
+
+* {
   padding: 0;
   margin: 0;
-
+  box-sizing: border-box; 
 }
+
+
 .header {
   min-height: 100vh;
   width: 100%;
@@ -13,6 +16,8 @@
   background-size: cover;
   position: relative;
 }
+
+
 nav {
   display: flex;
   padding: 2% 6%;
@@ -25,6 +30,7 @@ nav img {
   width: 150px; 
   height: auto; 
 }
+
 
 .nav-links {
   flex: 1;
@@ -44,12 +50,20 @@ nav img {
   padding: 8px 12px;
   position: relative;
 }
-.nav-links ul li a{
-  color: aliceblue;
+
+
+.nav-links ul li a {
+  color: aliceblue; 
   text-decoration: none;
-  font-size: 13px;
-  font-family:  'Poppins', sans-serif;
+  font-size: 14px; 
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease; 
 }
+
+.nav-links ul li a:hover {
+  color: #f44336; 
+}
+
 .nav-links ul li::after {
   content: '';
   width: 0;
@@ -57,4 +71,12 @@ nav img {
   background: #f44336;
   display: block;
   margin: auto;
+  transition: width 0.3s ease; 
+}
+
+
+.nav-links ul li:hover::after {
+  width: 100%; 
+}
+
 
