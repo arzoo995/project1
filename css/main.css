@@ -10,7 +10,7 @@
   width: 100%;
   background-image: 
     linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url('https://assets.pinterest.com/ext/embed.html?id=53128470597886585');
+    url('../images/p.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
