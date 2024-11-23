@@ -87,13 +87,14 @@ nav img {
   text-align: center;
 }
 .text-box h1{
-  font-size: 62px;
+  font-size: 70px;
   color: aliceblue;
-}
+  font-family: 'Poppins', sans-serif;
+  }
   .text-box p{
     color: aliceblue;
     font-size: 14px;
-    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif; 
     }
 .hero-btn{
   display: inline-block;
@@ -106,7 +107,7 @@ nav img {
   position: relative;
  } 
  .hero-btn:hover{
-  background-color: #f44336;
+  background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
   transition: 0.5s ease;
