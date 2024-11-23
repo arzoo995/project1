@@ -105,3 +105,8 @@ nav img {
   background: transparent;
   position: relative;
  } 
+ .hero-btn:hover{
+  background-color: #f44336;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s ease;
