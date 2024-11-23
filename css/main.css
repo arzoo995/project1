@@ -88,8 +88,21 @@ nav img {
 }
 .text-box h1{
   font-size: 62px;
+  color: aliceblue;
 
 .text-box p{
   font-size: 14px;
   margin: 10px 0 40px;
+  color: aliceblue;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid #fff;
+  padding: 12px 36px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+
 }
