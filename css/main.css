@@ -88,13 +88,12 @@ nav img {
 }
 .text-box h1{
   font-size: 70px;
-  color: aliceblue;
-  font-family: 'Poppins', sans-serif;
+  color: aliceblue;   
   }
   .text-box p{
     color: aliceblue;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif; 
+    margin: 10 0 40px;   
     }
 .hero-btn{
   display: inline-block;
