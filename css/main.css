@@ -117,7 +117,7 @@ nav img {
   margin: 10px 0;
  }
 
-nav . fa{
+nav .fa{
   display: none;
 }
  
@@ -135,6 +135,14 @@ nav . fa{
         height: 200px; 
         text-align: left;
         z-index: 2;
+
+       }
+       nav.fa{
+        display: block;
+        color: #fff;
+        margin: 10px ;
+        font-size: medium;
+        cursor: pointer;
 
        }
  }
