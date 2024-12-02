@@ -125,7 +125,15 @@ nav img {
         height: 200px; 
         text-align: left;
         z-index: 2;
-        
+
        }
  }
+
+ .p{
+  color: #fff;
+  font-size: 14px;
+  margin: 10 0 40px;
+  }
+ 
+
   
