@@ -133,6 +133,7 @@ nav .fa{
         background: #a05ee7;
         width: 100vh;
         height: 200px; 
+        right: -200px;
         text-align: left;
         z-index: 2;
 
