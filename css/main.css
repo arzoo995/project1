@@ -111,7 +111,17 @@ nav img {
   transition: 0.5s ease;
  }
 
- @media(max-width: 700px){
+ .p{
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0;
+ }
+
+nav . fa{
+  display: none;
+}
+ 
+@media(max-width: 700px){
        .text-box h1{
         font-size: 30px;
        }
@@ -129,11 +139,6 @@ nav img {
        }
  }
 
- .p{
-  color: #fff;
-  font-size: 14px;
-  margin: 10 0 40px;
-  }
- 
+
 
   
