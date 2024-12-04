@@ -131,6 +131,14 @@ nav .fa{
   display: none;
 }
 
+/*---- course ----*/
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: centre;
+  padding: 100px;
+}
+
 @media(max-width: 700px){
   .text-box h1{
     font-size: 30px;
