@@ -116,10 +116,15 @@ nav img {
   transition: 0.5s ease;
 }
 
-.p{
-  font-size: 14px;
-  color: #fff;
-  margin: 10px 0;
+.description{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue
+  }
+.header{
+  background-image: linear-gradient(to bottom, #a05ee7, #a05ee7
+  );
 }
 
 nav .fa{
