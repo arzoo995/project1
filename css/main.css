@@ -158,6 +158,26 @@ p{
   color: aliceblue;
 }
 
+.facillties{
+  padding: 2rem;
+  text-align: center;
+}
+.facillties-description p{
+  margin-bottom: 1.5rem;
+
+}
+.facillties-description ul{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+.facillties h1, .facillties h2{
+  margin-bottom: 1rem;
+}
+.facillties-image-container{
+  display: flex;
+}
+
 
 
 
