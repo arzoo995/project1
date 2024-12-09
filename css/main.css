@@ -138,17 +138,31 @@ nav .fa{
   padding: 100px;
   box-sizing: border-box;
 }
-h1{
+h1 {
   font-size: 36px;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary-color);
 }
 p{
-  color: #fff;
+  color: var(--primary-color);
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+}
+
+:root {
+  --primary-color: purple;
+}
+.course-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .li{
   list-style: none;
