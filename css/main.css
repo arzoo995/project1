@@ -1,15 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: 
-    linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url('../images/p.jpg');
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/p.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -32,9 +30,9 @@ nav {
 }
 
 nav img {
-  max-width: 100%; 
-  width: 150px; 
-  height: auto; 
+  max-width: 100%;
+  width: 150px;
+  height: auto;
 }
 
 .nav-links {
@@ -46,7 +44,7 @@ nav img {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
 }
 
 .nav-links ul li {
@@ -57,15 +55,15 @@ nav img {
 }
 
 .nav-links ul li a {
-  color: aliceblue; 
+  color: aliceblue;
   text-decoration: none;
-  font-size: 14px; 
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
-  transition: color 0.5s ease; 
+  transition: color 0.5s ease;
 }
 
 .nav-links ul li a:hover {
-  color: #a05ee7; 
+  color: #a05ee7;
 }
 
 .nav-links ul li::after {
@@ -75,31 +73,31 @@ nav img {
   background: #a05ee7;
   display: block;
   margin: auto;
-  transition: width 0.5s ease; 
+  transition: width 0.5s ease;
 }
 
 .nav-links ul li:hover::after {
-  width: 100%; 
+  width: 100%;
 }
 
-.text-box{
+.text-box {
   width: 90%;
   color: aliceblue;
   text-align: center;
 }
 
-.text-box h1{
+.text-box h1 {
   font-size: 70px;
-  color: aliceblue;   
+  color: aliceblue;
 }
 
-.text-box p{
+.text-box p {
   color: aliceblue;
   font-size: 14px;
-  margin: 10px 0 40px;   
+  margin: 10px 0 40px;
 }
 
-.hero-btn{
+.hero-btn {
   display: inline-block;
   text-decoration: none;
   color: aliceblue;
@@ -110,13 +108,13 @@ nav img {
   position: relative;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
   background: #a05ee7;
   border: 1px solid #a05ee7;
   transition: 0.5s ease;
 }
 
-.description{
+.description {
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -126,24 +124,27 @@ nav img {
   font-family: 'Poppins', sans-serif;
 }
 
-nav .fa{
+nav .fa {
   display: none;
 }
 
 /*---- course ----*/
-.course{
+
+.course {
   width: 80%;
   margin: auto;
   text-align: center;
   padding: 100px;
   box-sizing: border-box;
 }
+
 h1 {
   font-size: 36px;
   font-weight: 600;
   color: var(--primary-color);
 }
-p{
+
+p {
   color: var(--primary-color);
   font-size: 16px;
   font-weight: 300;
@@ -154,7 +155,8 @@ p{
 :root {
   --primary-color: purple;
 }
-.course-container{
+
+.course-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -164,13 +166,15 @@ p{
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.li{
+
+.li {
   list-style: none;
   padding: 0;
   margin: 0;
   color: aliceblue;
 }
-.row{
+
+.row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -180,7 +184,8 @@ p{
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.course-col{
+
+.course-col {
   flex-basis: 32%;
   background-color: #fff;
   border-radius: 10px;
@@ -189,26 +194,31 @@ p{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.facillties{
+.facillties {
   padding: 2rem;
   text-align: center;
 }
-.facillties-description p{
-  margin-bottom: 1.5rem;
 
+.facillties-description p {
+  margin-bottom: 1.5rem;
 }
-.facillties-description ul{
+
+.facillties-description ul {
   margin-top: 1rem;
   margin-left: 1.5rem;
   list-style-type: disc;
 }
-.facillties h1, .facillties h2{
+
+.facillties h1,
+.facillties h2 {
   margin-bottom: 1rem;
 }
-.facillties-image-container{
+
+.facillties-image-container {
   display: flex;
 }
-.staff-info .p{
+
+.staff-info .p {
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
@@ -216,25 +226,22 @@ p{
   color: white;
 }
 
-.staff-info h3{
+.staff-infos {
   font-size: 24px;
   font-weight: 600;
-  color: var(--primary-color);
+  color: #f0f0f0;
   margin-bottom: 10px;
 }
 
-
-
-@media(max-width: 700px){
-  .text-box h1{
+@media (max-width: 700px) {
+  .text-box h1 {
     font-size: 30px;
   }
-  .nav-links ul li a{
+  .nav-links ul li a {
     display: block;
   }
-  .nav-links{
+  .nav-links {
     position: absolute;
-    background: #a05ee7;
     width: 200px;
     height: 100vh;
     right: 0;
@@ -243,18 +250,18 @@ p{
     z-index: 2;
     transition: right 0.5s ease;
   }
-  nav .fa{
+  nav .fa {
     display: block;
     color: #fff;
     margin: 10px;
     font-size: medium;
     cursor: pointer;
   }
-  .nav-links ul{
+  .nav-links ul {
     padding: 30px;
   }
 }
 
-.nav-links.active{
+.nav-links.active {
   right: 200px;
 }
