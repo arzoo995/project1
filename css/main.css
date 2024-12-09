@@ -208,7 +208,20 @@ p{
 .facillties-image-container{
   display: flex;
 }
+.staff-info .p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  color: white;
+}
 
+.staff-info h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
 
 
 
