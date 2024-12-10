@@ -258,6 +258,102 @@ p {
 	font-size: 1rem;
 }
 
+/*---contact---*/
+.contact {
+	padding: 40px 20px;
+	background-color: #850ecf;
+	text-align: center;
+}
+
+.contact h1 {
+	font-size: 2.5rem;
+	color: #d2d7e0;
+}
+
+.contact .sub-heading {
+	margin-top: 10px;
+	font-size: 1.2rem;
+	color: #555;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 30px;
+}
+
+.contact-details, .contact-form {
+	flex: 1;
+	min-width: 300px;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.contact-details address p {
+	margin: 8px 0;
+	font-size: 1rem;
+}
+
+.contact-details a {
+	color: #bec2c9;
+}
+
+.contact-form label {
+	display: block;
+	margin-top: 15px;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+.contact-form .submit-btn {
+	margin-top: 15px;
+	padding: 10px 20px;
+	background: #5a16c7;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.contact-form .submit-btn:hover {
+	background: #002d73;
+}
+
+/* Map Section */
+.map-section {
+	padding: 40px 20px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.map-section h2 {
+	font-size: 2rem;
+	color: #6b05b8;
+	margin-bottom: 20px;
+}
+
+.map-container iframe {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 30px;
