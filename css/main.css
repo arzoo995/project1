@@ -248,7 +248,7 @@ p {
 	width: 80%;
 	max-width: 600px;
 	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px rgba(69, 5, 112, 0.2);
 }
 
 .image-caption {
@@ -288,7 +288,7 @@ p {
 	flex: 1;
 	min-width: 300px;
 	padding: 20px;
-	background: #fff;
+	background: #5b0674;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 }
@@ -349,8 +349,28 @@ p {
 
 .map-container iframe {
 	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 8px rgba(96, 11, 119, 0.1);
 }
+
+/*slideshow*/
+.slide{
+  display: none;
+}
+
+.slide img{
+  width:100%;
+  height: auto;
+  border-radius: 10px;
+}
+.fade{
+  animation: fade 2s;
+}
+@keyframes fade{
+  from {opacity: 0.4 }
+  to {opacity: 1}
+}
+
+
 
 
 

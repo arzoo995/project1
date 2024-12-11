@@ -37,6 +37,37 @@
 			<a href="aboutus.html" class="hero-btn">Visit Cantor College If You Want To Know More</a>
 		</div>
 	</header>
+	<div class="slideshow-container">
+		<div class="slide fade">
+			<img src="images/Cantor atrium 4.jpg" alt="cantor atrium">
+        </div>
+		<div class="slide fade">
+			<img src="images/cantormain.png" alt="cantor main">
+		</div>
+		<div class="slide fade"></div>
+			<img src="images/cantoroutside.jpg" alt="cantor outside">
+		<div class="slide fade">
+				<img src="images/Cantor atrium 2.jpg" alt="cantor atrium">
+			</div>
+		</div>
+	
+	<script>
+		let slidesIndex = 0;
+		showslides();
+		
+		function showslides() {
+			const slides = document.getElementByClassName("slide");
+			for(let i = 0; i< slides.length; i++){
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if(slideIndex > slides.length){
+				slideIndex = 1;
+			}
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides , 3000);
+		}
+	</script>
 
 <section class="course">
 	<h1>Our Courses</h1>
