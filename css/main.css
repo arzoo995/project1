@@ -355,6 +355,8 @@ p {
 /*slideshow*/
 .slide{
   display: none;
+  height: 100px;
+  width: 150px;
 }
 
 .slide img{
