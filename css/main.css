@@ -203,12 +203,11 @@ h3{
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 10px;
   text-align: center;
   transition: 0.5s;
   display: flex;
   justify-content: center;
-  align-items: center;
+  border-radius: 8px; width: 50%;
 }
 
 .layer:hover{
