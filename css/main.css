@@ -204,6 +204,10 @@ h3{
   top: 0;
   left: 0;
   transition: 0.5s;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 8px; /* Matches the image's corner radius */
+  border-bottom-right-radius: 8px;
 }
 .layer:hover{
   background: rgba(146, 64, 228, 0.7);
