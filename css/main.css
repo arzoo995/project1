@@ -16,7 +16,6 @@
   background-position: center;
   position: relative;
   display: flex;
-  flex-direction: column;
 }
 
 nav {
@@ -46,6 +45,19 @@ nav img {
   text-decoration: none;
   font-size: 13px;
 }
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #b035e1;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover: :after{
+  width: 100%;
+  }
 
 
 
