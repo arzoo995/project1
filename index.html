@@ -1,136 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/main.css"> 
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
-     <title>Cantor College| Home</title>
-</head>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width" intial-scale="1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css"> 
+		<title>Cantor College| Home</title>
+	</head>
+	<body>
+		<section class="header"></section>
 
-<body>
-	<header class="header">
-       <nav class="nav">
-		<a href="index.html" class="logo">
-			<img src="images/logo.webp" alt="Logo">
-		  </a>
-		  <div class="nav-links" id="navLinks">
-			<i class="fa fa-times" onclick="hideMenu()"></i>
-			<ul class="nav-list">
-			  <li><a href="index.html" class="nav-link active">Home</a></li>
-			  <li><a href="aboutus.html" class="nav-link">About Us</a></li>
-			  <li><a href="business.html" class="nav-link">Information For Business</a></li>
-			  <li><a href="computingcourses.html" class="nav-link">Computing Courses</a></li>
-			  <li><a href="designcourses.html" class="nav-link">Design Courses</a></li>
-			  <li><a href="learningresources.html" class="nav-link">Learning Resources</a></li>
-			  <li><a href="informationforstaff.html" class="nav-link">Staff</a></li>
-			  <li><a href="infostudents.html" class="nav-link">Students</a></li>
-			  <li><a href="howtofindus.html" class="nav-link">How to find us</a></li>
-			</ul>
-		  </div>
-		  <i class="fa fa-bars" onclick="showMenu()"></i>
-	   </nav>
-	   <div class="text-box">
-			<h1>Welcome to Cantor College</h1>
-			<p>Cantor College was established in 1989 to specialize in Computing and Design. At Cantor College, we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge, skills and experience to succeed.</p>
-			<p>Our students have gone on to successful careers in a wide range of industries across the globe. Whatever your ambitions, our learning and support can help to get the most out of your time with Cantor College, both as a student and in your future career.</p>
-			<a href="aboutus.html" class="hero-btn">Discover More About Cantor College</a>
-		</div>
-	</header>
-
-	<div class="slideshow-container">
-		<div class="slide fade">
-			<img src="images/banner-atrium1.jpg" alt="banner-atrium1">
-		</div>
-		<div class="slide fade">
-			<img src="images/banner-atrium2.png" alt="banner-atrium">
-		</div>
-		<div class="slide fade">
-			<img src="images/banner3.jpg" alt="banner3">
-		</div>
-		<div class="slide fade">
-			<img src="images/banner4.jpg" alt="banner4">
-		</div>
-	</div>
-
-	<!-- Course section -->
-<section class="course">
-	<div class="row"></div>
-	<h1>Our Courses</h1>
-	<p>Our courses are designed to give you the skills and knowledge you need to succeed in your chosen career.</p>
-	<div class="course-container">
-		<div class="course-row">
-			<h2>Computing Courses</h2>
-			<p>Explore our range of computing courses, from beginner to advanced levels.</p>
-			<a href="computingcourses.html" class="course-btn">Learn More</a>
-			<div class="course-sub-links">
-				<a href="#">Software Development</a>
-				<a href="#">Data Science</a>
-				<a href="#">Cybersecurity</a>
-				<a href="#">Artificial Intelligence</a>
-			</div>
-		</div>
-		<div class="course-row">
-			<h2>Design Courses</h2>
-			<p>Discover our design courses, covering graphic design, UI/UX, and more.</p>
-			<a href="designcourses.html" class="course-btn">Learn More</a>
-			<div class="course-sub-links">
-				<a href="#">Graphic Design</a>
-				<a href="#">UI/UX Design</a>
-				<a href="#">Visual Design</a>
-				<a href="#">Interaction Design</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-	<!-- Course Details -->
-<section class="course-details">
-	<div class="course-cols">
-		<div class="course-col">
-			<h3>Computing Courses</h3>
-			<p>Our computing courses cover a range of topics, including programming, data analysis, and cybersecurity.</p>
-			<ul>
-				<li>Software Development</li>
-				<li>Data Science</li>
-				<li>Cybersecurity</li>
-				<li>Artificial Intelligence</li>
-			</ul>
-		</div>
-		<div class="course-col">
-			<h3>Design Courses</h3>
-			<p>Our design courses cover graphic design, UI/UX, and more.</p>
-			<ul>
-				<li>Graphic Design</li>
-				<li>UI/UX Design</li>
-				<li>Visual Design</li>
-				<li>Interaction Design</li>
-			</ul>
-		</div>
-	</div>
-</section>
-	<!-- Slideshow section -->
-
-
-	<script>	
-	let slideIndex = 0;
-	showSlides();
-
-	function showSlides() {
-		const slides = document.getElementsByClassName("slide");
-		for (let i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
-		slideIndex++;
-		if (slideIndex > slides.length) {
-			slideIndex = 1;
-		}
-		slides[slideIndex - 1].style.display = "block";
-		setTimeout(showSlides, 3000); // Change image every 3 seconds
-	}
-	</script>
-
-</body>
+	</body>
 </html>
 
