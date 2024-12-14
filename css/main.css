@@ -14,9 +14,7 @@
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/p.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
+  position: relative; 
 }
 
 nav {
@@ -24,7 +22,6 @@ nav {
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 nav img {
