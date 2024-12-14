@@ -150,11 +150,10 @@ p{
   display: flex;
   justify-content: space-between;
 }
-h3{
-  font-size: 24px;
-  font-weight: 600;
-  color: #121213;
-}
+.course h1{
+  color: #0c0110;
+  }
+
 .course-col{
   flex-basis: 31%;
   background-color: #d4aae6;
