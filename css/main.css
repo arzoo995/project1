@@ -435,9 +435,14 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #b491e8;
+  background-color: var(--primary-color);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease;
+}
+
+.row course-row:hover{
+  background-color: #a05ee7;
 }
 .course-col{
   flex-basis: 31%;
