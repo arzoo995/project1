@@ -435,9 +435,17 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #b491e8;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.course-col{
+  flex-basis: 31%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box ;
 }
 
 @media (max-width: 700px) {
