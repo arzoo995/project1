@@ -459,6 +459,51 @@ h3{
   margin: 10px 0;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  background: #f4f4f4;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.learningresources {
+  padding: 2rem;
+  background: #c26fd6;
+}
+
+.learningresources-info {
+  background: #c0aad2;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(99, 18, 132, 0.756);
+}
+
+.learningresources-info h2 {
+  color: #9c64dc;
+  margin-top: 0;
+}
+
+.learningresources-info p, li {
+  margin: 0.5rem 0;
+}
+
+.learningresources-info ul {
+  padding-left: 1.5rem;
+}
+
+
 
 @media (max-width: 700px) {
   .text-box h1 {
