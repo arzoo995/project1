@@ -150,3 +150,16 @@ p{
   display: flex;
   justify-content: space-between;
 }
+h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #121213;
+}
+.course-col{
+  flex-basis: 31%;
+  background-color: #d4aae6;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 15px;
+  box-sizing: border-box;
+}
