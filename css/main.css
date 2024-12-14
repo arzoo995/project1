@@ -193,5 +193,13 @@ h3{
   position: relative;
 }
 .campus-col img{
-  width:100%;
+  width:150%;
+}
+.layer{
+  background: rgba(146, 64, 228, 0.7);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
   
