@@ -178,20 +178,30 @@ h3{
 
 
 /*campus*/
-
-.campus{
+.campus {
   width: 80%;
-  margin: auto;
+  margin: 0 auto; /* Centering the content */
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0; /* Remove the unnecessary white space */
+  padding-bottom: 50px; /* Optional: Add spacing at the bottom if needed */
 }
 
-.campus-col{
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  position: relative;
+.campus-row {
+  display: flex;
+  justify-content: space-between; /* Distribute columns evenly */
+  align-items: center; /* Ensure vertical alignment */
+  flex-wrap: wrap; /* Ensure responsiveness */
+  gap: 30px; /* Add spacing between columns */
 }
+
+.campus-col {
+  flex-basis: 32%; /* Makes sure each column takes an equal width */
+  border-radius: 10px;
+  margin: 0; /* Remove any external margin */
+  position: relative;
+  overflow: hidden; /* Ensures the `.layer` stays within the column */
+}
+
 .campus h1{
   font-weight: 600;
   color: #0c0110;
@@ -203,11 +213,12 @@ h3{
   left: 0;
   height: 100%;
   width: 100%;
+  padding: 10px;
   text-align: center;
   transition: 0.5s;
   display: flex;
   justify-content: center;
-  border-radius: 8px; width: 50%;
+  
 }
 
 .layer:hover{
