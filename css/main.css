@@ -196,19 +196,20 @@ h3{
   font-weight: 600;
   color: #0c0110;
 }
-.layer{
+.layer {
   background: transparent;
-  height: 100%;
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  transition: 0.5s;
+  height: 100%; /* Ensures it matches the image's height */
+  width: 100%; /* Ensures it matches the image's width */
   padding: 10px;
   text-align: center;
-  border-bottom-left-radius: 8px; /* Matches the image's corner radius */
-  border-bottom-right-radius: 8px;
+  border-radius: inherit; /* Inherits the image's border radius */
+  transition: 0.5s;
+  pointer-events: none; /* Optional: Prevent interaction if it's an overlay */
 }
+
 .layer:hover{
   background: rgba(146, 64, 228, 0.7);
 }
