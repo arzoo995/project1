@@ -192,18 +192,14 @@ h3{
   margin-bottom: 30px;
   position: relative;
 }
-.campus img{
-  width: 100%;
-  height: 100%;
-}
 .campus-col h1{
   font-weight: 600;
   color: #0c0110;
 }
 .layer{
   background: rgba(146, 64, 228, 0.7);
-  height: 624px;
-  width: 1110px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
