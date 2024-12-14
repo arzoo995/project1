@@ -14,6 +14,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 nav{
@@ -21,31 +23,53 @@ nav{
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
+
 nav img{
   width: 150px;
-
 }
+
 .nav-links{
   flex: 1;
   text-align: right;
 }
-.nav-links ul li{
+
+.nav-links ul {
   list-style: none;
-  display: inline-block;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links ul li{
   padding: 8px 12px;
   position: relative;
 }
+
 .nav-links ul li a{
   color: rgb(194, 174, 203);
   text-decoration: none;
   font-size: 13px;
+  transition: color 0.2s ease;
 }
+
+.nav-links ul li a:hover{
+  color: rgb(142, 55, 183);
+}
+
 .nav-links ul li::after{
   content: '';
-  width: 100%;
+  width: 0%;
   height: 2px;
-  background: rgb(142, 55, 183);
-  display: block ;
+  background: rgb(164, 118, 185);
+  display: block;
   margin: auto;
+  transition: width 0.5s ease;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+
 }
