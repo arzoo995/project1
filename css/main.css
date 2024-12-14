@@ -459,11 +459,6 @@ h3{
   margin: 10px 0;
 }
 
-.hero{
-  background-image: url('images/p.jpg');
-  background-size: cover;
-  background-position: center;
-}
 
 @media (max-width: 700px) {
   .text-box h1 {
