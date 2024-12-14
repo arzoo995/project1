@@ -51,15 +51,11 @@ nav img {
   background: #b035e1;
   display: block;
   margin: auto;
-  position: absolute; /* Position it relative to the li */
-  left: 0;
-  right: 0;
-  bottom: 0; /* Align it at the bottom */
-  transition: width 0.5s ease; /* Smooth width transition */
+  transition: 0.5s; 
 }
 
 .nav-links ul li:hover::after {
-  width: 100%; /* Expand to full width on hover */
+  width: 100%; 
 }
 
 
