@@ -23,6 +23,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #3b1854;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav img {
