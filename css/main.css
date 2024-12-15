@@ -241,7 +241,7 @@ h3{
   opacity: 1;
 }
 /*-----facillties-----*/
-.faciilties {
+.facilities{
   width: 80%;
   margin: auto;
   text-align: center;
@@ -251,14 +251,14 @@ h3{
   flex-wrap: wrap; 
 }
 
-.faciilties-col {
+.facilities-col {
   flex-basis: 31%; 
   border-radius: 10px;
   margin-bottom: 10px; 
   text-align: left;
 }
 
-.faciilties-col img {
+.facilities-col img {
   width: 100%;
   border-radius: 10px;
 }
