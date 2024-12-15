@@ -264,6 +264,12 @@ h3{
 }
 .facilities-col h3{
   color: #0c0110;
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.facilities-col p{
+  padding: 0;
 }
 
   
