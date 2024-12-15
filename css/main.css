@@ -506,12 +506,4 @@ h3{
   margin-top: 10px;
 }
 
-nav {
-  display: flex !important; /* Ensure it's visible */
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff; /* Add a background color to see it */
-  z-index: 1000; /* Ensure it's above other content */
-  position: relative; /* Prevent overlay issues */
-}
 
