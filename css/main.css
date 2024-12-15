@@ -365,7 +365,7 @@ h3{
 .news-text-box {
   text-align: center;
   padding: 20px;
-  background-color: #4b0082;
+  background-color: #9471ae;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -384,7 +384,7 @@ h3{
 
 .news-col {
   flex: 1 1 calc(33% - 40px);
-  background-color: #0f3460;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/p.jpg');
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
