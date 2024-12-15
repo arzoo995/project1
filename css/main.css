@@ -285,6 +285,7 @@ h3{
 .content h1 { 
   font-size: 3em; 
   margin-bottom: 20px; 
+  color: #0c0110;
 } 
 .content p { 
   font-size: 1.2em;
@@ -292,7 +293,7 @@ h3{
 }
     
 p { 
-  background-color: #4b0082; 
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/p.jpg');
   padding: 15px; 
   border-radius: 8px; 
   color: #fff;
