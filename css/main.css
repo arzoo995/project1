@@ -270,9 +270,13 @@ h3{
 .facilities-col p{
   padding: 0;
 }
-.facilities h1{
-  color: #0c0110;
-  text-align: center;
+.facilities h1 {
+  color: #0c0110; 
+  text-align: center; 
+  margin: 0 auto; 
+  display: block; 
+  width: 100%; 
 }
+
 
   
