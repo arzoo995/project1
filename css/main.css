@@ -373,7 +373,11 @@ h3{
 .news-text-box h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #fff;
+  color: #b065d3;
+}
+.new-text-box p{
+  font-size: 1.5em;
+  color: #be9dce;
 }
 
 .news {
