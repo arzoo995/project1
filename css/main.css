@@ -299,4 +299,35 @@ p {
   color: #fff;
 }
 
+/*----how to find us----*/
+.contact-text-box { 
+  padding: 20px; 
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: 20px auto; 
+  max-width: 600px; 
+} 
+.contact-text-box h1 { 
+  font-size: 2.5em; 
+  margin-bottom: 20px; 
+} 
+.contact-text-box address { 
+  font-style: normal; 
+  line-height: 1.6;
+ } 
+.contact-text-box address span { 
+  font-weight: 600; } 
+  
+  .contact-text-box a { 
+    color: #4b0082; 
+    text-decoration: none; 
+  } 
+.contact-text-box a:hover { 
+  text-decoration: underline; 
+} 
+.image-section { 
+  text-align: center; 
+}
+
   
