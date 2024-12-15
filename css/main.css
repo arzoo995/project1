@@ -414,3 +414,95 @@ h3{
   font-weight: 600;
   font-size: 1.2em;
 }
+/*---hero----*/
+
+.hero {
+  background: url('../images/bow.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #6a11cb;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/*what we offer*/
+
+.offer {
+  text-align: center;
+  padding: 50px 20px;
+  background: #eaeaea;
+}
+
+.offer h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.offer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.offer-box {
+  width: 30%;
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+/* Campus Features */
+.campus-features {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.campus-features h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.feature-box {
+  margin-bottom: 20px;
+}
+
+.feature-box img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.feature-box h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
