@@ -271,7 +271,7 @@ h3{
   padding: 0;
 }
 .facilities h1 {
-  color: #0c0110; 
+  color: #000000; 
   text-align: center; 
   margin: 0 auto; 
   display: block; 
@@ -285,7 +285,7 @@ h3{
 .content h1 { 
   font-size: 3em; 
   margin-bottom: 20px; 
-  color: #0c0110;
+  color: #f4eff6;
 } 
 .content p { 
   font-size: 1.2em;
