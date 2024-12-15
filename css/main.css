@@ -423,7 +423,7 @@ h3{
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #2e145d;
+  color: #b7a7d5;
 }
 
 .hero-text h1 {
@@ -435,7 +435,7 @@ h3{
   display: inline-block;
   margin-top: 15px;
   background: #6a11cb;
-  color: #5b249a;
+  color: #dcd2e7;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -504,5 +504,14 @@ h3{
   font-size: 1rem;
   color: #555;
   margin-top: 10px;
+}
+
+nav {
+  display: flex !important; /* Ensure it's visible */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Add a background color to see it */
+  z-index: 1000; /* Ensure it's above other content */
+  position: relative; /* Prevent overlay issues */
 }
 
