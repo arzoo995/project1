@@ -241,20 +241,24 @@ h3{
   opacity: 1;
 }
 /*-----facillties-----*/
-.faciilties{
+.faciilties {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
-.faciilties-col{
-  flex-basis: 31%;
+
+.faciilties-col {
+  flex-basis: 31%; 
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px; 
   text-align: left;
 }
 
-.faciilties-col img{
+.faciilties-col img {
   width: 100%;
   border-radius: 10px;
 }
