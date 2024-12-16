@@ -1034,7 +1034,7 @@ font-size: 1.2rem;
 /*contact info section*/
 .contact-info{
   padding: 50px 20px;
-  background: #fff;
+  background: #e4dddd;
   text-align: center;
 }
 .contact-info h2{
@@ -1044,7 +1044,7 @@ font-size: 1.2rem;
 }
 .contact-info p{
   font-size: 1.1rem;
-  color: #ece9e9;
+  color: #1a0202;
   margin-bottom: 10px;
 }
 .contact-info a{
@@ -1121,7 +1121,7 @@ font-size: 1.2rem;
 .contact-form .btn {
   padding: 10px 20px;
   background-color: #9542d5;
-  color: #333;
+  color: #c9a8da;
   border: none;
   border-radius: 5px;
   font-weight: 600;
@@ -1131,7 +1131,7 @@ font-size: 1.2rem;
 }
 
 .contact-form .btn:hover {
-  background-color: #6b36c6;
+  background-color: #180933;
   transform: scale(1.05);
 }
 
