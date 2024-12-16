@@ -508,4 +508,39 @@ h3{
   margin-top: 10px;
 }
 
-
+/*about us*/
+.about-content{
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.about-content h2{
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.about-content h3{
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+.about-content p{
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+.about-content ul {
+  list-style: disc;
+  margin: 20px auto;
+  padding-left: 40px;
+  text-align: left;
+  max-width: 600px;
+}
+.about-content ul li {
+  margin-bottom: 10px;
+}
+.about-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: -10px;
+}
