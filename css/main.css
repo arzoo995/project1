@@ -1006,3 +1006,132 @@ section {
   transform: scale(1.05);
 }
 
+/*how to find us*/
+.hero-findus{
+  background: url('../images/p.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.findus-hero-text{
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+.findus-hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.findus-hero-text p{
+font-size: 1.2rem;
+}
+
+/*contact info section*/
+.contact-info{
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+.contact-info h2{
+  font-size: 2.5rem;
+  color: #3a114d;
+  margin-bottom: 20px;
+}
+.contact-info p{
+  font-size: 1.1rem;
+  color: #ece9e9;
+  margin-bottom: 10px;
+}
+.contact-info a{
+  color: #9d64c5;
+  text-decoration: none;
+  font-weight: bold;
+}
+.contact-info a:hover{
+  color:#6a11cb;
+  text-decoration: underline;
+}
+/* Map Section */
+.map {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.map h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.map-container iframe {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+}
+/* Contact Form Section */
+.contact-form {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2e0957;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .btn {
+  padding: 10px 20px;
+  background-color: #9542d5;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.contact-form .btn:hover {
+  background-color: #6b36c6;
+  transform: scale(1.05);
+}
+
+
