@@ -25,25 +25,85 @@
 				</ul>
 			</div>
 		</nav>
-		<section class="buisness-text-box">
-			<h1>Partner with Cantor College: Unlock Expertise, Innovation, and Growth </h1>
-			<p>At Cantor College, we believe in the power of collaboration between education and industry. Our College offers a range of specialized services designed to support businesses in achieving their goals through cutting-edge expertise, innovation, and tailored solutions. <br> With a focus on Computing, Design, and Technology, we are uniquely positioned to help your business thrive in an increasingly digital world. </p>
-		</section>
 	</section>
+	<!---fulllscreeen hero section-->
+	<header class="hero-banner">
+		<div class="hero-content">
+			<h1>Partner with cantor college</h1>
+			<p>Empowering businesses with innovation, expertise, and forward-thinking solutions.</p>
+		</div>
+	</header>
+     <!---why partner-->
+	 <section class="why-partner">
+		<div class="buisness-container">
+			<h2>Why Partner with Cantor College?</h2>
+			<div class="why-grid">
+				<div class="why-item">
+					<h3>Cutting Edge Expertise</h3>
+					<p>Our programs are at the forefront of industry trends, ensuring that our services reflect the latest advancements in technology and design. </p>
+				</div>
+				<div class="why-item">
+					<h3>Innovation at the Core</h3>
+					<p>We foster a culture of creativity and problem-solving, making us the ideal partner for businesses seeking innovative solutions.</p>
+				</div>
+				<div class="why-item">
+					<h3>Tailored Solutions</h3>
+					<p>We understand that every business is unique. Our services are customized to meet your specific objectives and challenges.</p>
+				</div>
+				<div class="why-item">
+					<h3>Future-Ready Talent</h3>
+					<p>Our students are trained to excel in the modern workplace, equipped with both theoretical knowledge and practical skills</p>
+				</div>
+			</div>
+		</div>
+	 </section>
+    <!-----our services------->
+	<section id="services" class="services">
+		<div class="services-container">
+			<h2>Our Services</h2>
+			<div class="services-grid">
+				<div class="service-card">
+					<h3>Custom training</h3>
+					<p>Empower your workforce with skills that matter. Our faculty can develop custom training programs that address your business's specific needs, whether in advanced computing technologies, creative design, or the latest in tech innovation. We offer flexible learning options, including on-site workshops, online modules, and blended learning experiences. 
+					</p>
+				</div>
+				<div class="service-card">
+					<h3>Research and Development</h3>
+					<p>the talent and creativity of our students and faculty by partnering with Cantor College on research and development projects. Whether you’re looking to explore new technologies, innovate your product line, or solve complex technical challenges, our R&D team is ready to collaborate with you. </p>
+				</div>
+				<div class="service-card">
+					<h3>. Internships and Graduate Recruitment</h3>
+					<p> Gain access to a pool of highly skilled and motivated students ready to contribute to your business. Our internship and recruitment services can connect you with top talent in computing, design, and technology, providing you with candidates who are equipped with the latest industry knowledge and practical experience. </p>
+				</div>
+				<h3>Event Hosting</h3>
+				<p>Cantor College hosts a range of events throughout the year, including hackathons, design challenges, and technology expos. We offer businesses the opportunity to sponsor events or collaborate in their organization, giving you direct access to the brightest minds in the field and the chance to showcase your brand to our community. </p>
+			</div>
+		</div>
+	</div>
+	</section>
+	   <!-- Image Slideshow -->
+	   <section class="slideshow-section">
+        <h2>Our Gallery</h2>
+        <div class="slideshow-container">
+            <img src="images/banner-atrium1.jpg" alt="Collaboration" class="slide active">
+            <img src="images/banner-atrium2.png" alt="Workshop" class="slide">
+            <img src="images/banner3.jpg" alt="Technology Innovation" class="slide">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
 </html>
+<script>
+	let slideIndex = 0;
 
+function changeSlide(direction) {
+    const slides = document.querySelectorAll('.slide');
+    slides[slideIndex].classList.remove('active');
+    slideIndex = (slideIndex + direction + slides.length) % slides.length;
+    slides[slideIndex].classList.add('active');
+}
 
-
-
-
-
-
-
-
-
-
-
-
+</script>
 <footer>
 	<p>&copy; 2024 Cantor College. All Rights Reserved.</p>
 </footer>

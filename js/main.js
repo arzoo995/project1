@@ -7,3 +7,4 @@ function toggleMenu() {
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Welcome to Cantor College!");
 });
+
