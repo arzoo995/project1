@@ -1137,10 +1137,13 @@ font-size: 1.2rem;
 
 /*design courses*/
 .highlights{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem 1rem;
   background-color: #f7f7f7;
 }
+
 .highlights-cards{
   display: flex;
   justify-content: center;
@@ -1148,28 +1151,38 @@ font-size: 1.2rem;
   margin-top: 1rem;
   flex-wrap: wrap;
 }
+
 .design-card{
-  background-color:#6a11cb;  
+  background-color: #6a11cb;  
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   width: 280px;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
+
+.design-card:hover{
+  transform: translateY(-5px);
+}
+
 .design-card h3{
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
+
 .facilities-design{
   padding: 2rem 1rem;
   text-align: center;
 }
+
 .facilitiy-images{
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 .facility-image img{
   width: 300px;
   height: auto;
@@ -1179,7 +1192,6 @@ font-size: 1.2rem;
 }
 
 .design-hero{
-  background: url('../images/ab.jpg') center/cover no-repeat;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -1187,5 +1199,32 @@ font-size: 1.2rem;
   text-align: center;
   color: white;
   position: relative;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/p.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.design-hero::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.design-hero h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.design-hero p{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
 }
 
