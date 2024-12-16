@@ -563,6 +563,10 @@ h3{
 	font-size: 3rem;
 	margin-bottom: 10px;
 }
+.hero-aboutus p{
+  font-size: 1.2rem;
+  color: white;
+}
 
 .hero-text-aboutus p {
 	font-size: 1.2rem;
