@@ -658,3 +658,30 @@ footer {
 footer p {
 	margin: 0;
 }
+
+/*---mission statement----*/
+/* Mission Statement Section */
+.mission-statement {
+	background-color: #f4f4f4;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+.mission-container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+.mission-container h2 {
+	font-size: 2.5rem;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.mission-container p {
+	font-size: 1.2rem;
+	color: #555;
+	line-height: 1.8;
+}
+
