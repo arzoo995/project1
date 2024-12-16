@@ -758,7 +758,7 @@ footer p {
   position: relative;
 }
 .hero-content {
-  background: rgba(79, 9, 118, 0.6);
+ background-image: url('../images/p.jpg') ;
   padding: 20px 40px;
   border-radius: 10px;
 }
