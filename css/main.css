@@ -758,17 +758,19 @@ footer p {
   position: relative;
 }
 .hero-content {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(79, 9, 118, 0.6);
   padding: 20px 40px;
   border-radius: 10px;
 }
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+  color: #ae9bbe;
 }
 .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 20px;
+  color: rgb(172, 140, 202);
 }
 
 /* Slideshow Section */
