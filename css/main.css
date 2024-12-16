@@ -1018,13 +1018,14 @@ section {
   position: relative;
 }
 .findus-hero-text{
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(222, 171, 239, 0.6);
   padding: 20px 40px;
   border-radius: 10px;
 }
 .findus-hero-text h1 {
   font-size: 3rem;
   margin-bottom: 10px;
+  
 }
 .findus-hero-text p{
 font-size: 1.2rem;
